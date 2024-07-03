@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Generation</string>
+    <string name="activity.MainActivity.RequestPermission">请求权限</string>
+    <string name="activity.MainActivity.open_source">在 GITHUB 上查看我们的源代码</string>
+    <string name="activity.WebviewActivity">HTML查看器</string>
+    <string name="activity.WebviewActivity.menu">菜单</string>
+    <string name="activity.WebviewActivity.menu.reload">刷新</string>
+    <string name="activity.WebviewActivity.menu.copy">复制网址</string>
+    <string name="s.exit">退出</string>
+    <string name="s.press_again_2_exit">再按一次退出</string>
+</resources>

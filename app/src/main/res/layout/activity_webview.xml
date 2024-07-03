@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="56dp"
+		android:background="@color/colorPrimary">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="left|center_vertical"
+			android:paddingLeft="8dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/activity.WebviewActivity"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textSize="18sp"
+				android:id="@+id/title"
+				android:textColor="#FFFFFFFF"
+				android:singleLine="true"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Text"
+				android:id="@+id/subtitle"
+				android:textColor="#FFFFFAFA"
+				android:alpha="0.8"
+				android:singleLine="true"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="center">
+
+			<Button
+				android:layout_width="wrap_content"
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="match_parent"
+				android:text="@string/activity.WebviewActivity.menu"
+				android:onClick="menu"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<WebView
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/webview"/>
+
+</LinearLayout>
+
